@@ -7,3 +7,5 @@ docker run --rm \
 -p "9876:9876" \
 springcloud/spring-cloud-contract-stub-runner:2.2.0.BUILD-SNAPSHOT 
 
+echo "Waiting for 10 seconds"
+sleep 10

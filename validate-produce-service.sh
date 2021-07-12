@@ -19,3 +19,6 @@ springcloud/spring-cloud-contract:2.1.1.RELEASE
 #-e "EXTERNAL_CONTRACTS_REPO_WITH_BINARIES_URL=git://https://github.com/BottomlineDevTest/produce-contracts.git" \
 #-e "EXTERNAL_CONTRACTS_PATH=/Users/William.Korando@ibm.com/code/collaborative-contract-driven-development-2-0/produce-contracts/" \
 #-e "APPLICATION_BASE_URL=http://host.docker.internal:8080" \
+
+echo "Waiting for 10 seconds"
+sleep 10

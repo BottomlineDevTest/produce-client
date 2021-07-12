@@ -5,3 +5,6 @@ docker run  --rm \
 -p "8083:8083" \
 -p "9876:9876" \
 springcloud/spring-cloud-contract-stub-runner:2.1.1.RELEASE
+
+echo "Waiting for 10 seconds"
+sleep 10
