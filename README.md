@@ -4,16 +4,16 @@ Javascript client, part of "Collaborative Contract Driven Design", demonstrating
 
 Using this project currently.
 
-You will need to clone the produce-service [repo](https://github.com/wkorando/produce-service).
+You will need to clone the produce-service [repo](https://github.com/BottomlineDevTest/produce-service).
 
-The API for the produce service can be seen here: [Produce API](http://htmlpreview.github.io/?https://github.com/wkorando/collaborative-contract-driven-development-2-0/blob/master/index.html)
+The API for the produce service can be seen here: [Produce API](http://htmlpreview.github.io/?https://github.com/BottomlineDevTest/collaborative-contract-driven-development-2-0/blob/master/index.html)
 
 ## Perquisites: 
 Find your local IP address, docker will be making calls out to loca resources and some of hte script files will ne to be updated as a result. 
 
 ### Clone Repo
 
-Run: `git clone https://github.com/wkorando/produce-client`
+Run: `git clone https://github.com/BottomlineDevTest/produce-client`
 
 ### Update scripts:
 
@@ -23,11 +23,11 @@ If you you are on mac you and running wireless you can run: `ifconfig en0` which
 
 Run: `./start-artifactory.sh`
 
-This will start local artifactory instance. This will be used for storing the stubs that Spring Cloud Contract generates when it executes contracts stored here: [produce-contracts](https://github.com/wkorando/produce-contracts)
+This will start local artifactory instance. This will be used for storing the stubs that Spring Cloud Contract generates when it executes contracts stored here: [produce-contracts](https://github.com/BottomlineDevTest/produce-contracts)
 
 ### Start up RESTful API:
 
-Run: `git clone https://github.com/wkorando/produce-service`
+Run: `git clone https://github.com/BottomlineDevTest/produce-service`
 
 cd to the root of that project and run: `./mvnw spring-boot:run`
 
