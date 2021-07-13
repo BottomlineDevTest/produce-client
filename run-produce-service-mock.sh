@@ -1,5 +1,5 @@
 docker run  --rm \
--e "STUBRUNNER_IDS=com.ibm.developer:produce-service:+:stubs:9876" \
+-e "STUBRUNNER_IDS=com.bottomline.ptx.capture-core:capture-core-ocr:+:stubs:9876" \
 -e "STUBRUNNER_REPOSITORY_ROOT=git://https://github.com/BottomlineDevTest/produce-contracts.git" \
 -e "STUBRUNNER_STUBS_MODE=REMOTE" \
 -p "8083:8083" \
