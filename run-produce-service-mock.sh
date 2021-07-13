@@ -1,4 +1,5 @@
 docker run  --rm \
+-e "APPLICATION_BASE_URL=http://host.docker.internal:5502" \
 -e "STUBRUNNER_IDS=com.ibm.developer:produce-service:+:stubs:9876" \
 -e "STUBRUNNER_REPOSITORY_ROOT=http://host.docker.internal:8081/artifactory/libs-release-local/" \
 -e "STUBRUNNER_STUBS_MODE=REMOTE" \
